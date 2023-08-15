@@ -1,0 +1,24 @@
+tools:
+  - name: kubectl
+    link_template: "https://storage.googleapis.com/kubernetes-release/release/vVERSION/bin/linux/amd64/kubectl"
+    version: 1.27.4
+  - name: helm
+    link_template: "https://get.helm.sh/helm-vVERSION-linux-amd64.tar.gz"
+    version: 3.12.3
+  - name: jq
+    link_template: "https://github.com/stedolan/jq/releases/download/jq-VERSION/jq-linux64"
+    version: 1.6
+  - name: yq
+    link_template: "https://github.com/mikefarah/yq/releases/download/VERSION/yq_linux_amd64"
+    version: 3.4.1
+  - name: kubectx
+    link_template: "https://github.com/ahmetb/kubectx/releases/download/vVERSION/kubectx_vVERSION_linux_x86_64.tar.gz"
+    version: 0.9.5
+  - name: kubens
+    link_template: "https://github.com/ahmetb/kubectx/releases/download/vVERSION/kubens_vVERSION_linux_x86_64.tar.gz"
+    version: 0.9.5
+  - name: fzf
+    command: "sudo apt install fzf"
+  - name: devspace
+    link_template: "https://github.com/devspace-sh/devspace/releases/download/vVERSION/devspace-linux-amd64"
+    version: "6.3.2"
